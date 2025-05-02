@@ -10,7 +10,7 @@ layout: home
     <p class="phome">Champak Magazine | Story: The Mighty Mouse</p>
     <img src="/assets/images/Bee1.png" style="width:100%">
     <p class="phome">Bee Illustration</p>
-    <img src="/assets/images/5.PNG" style="width:100%">
+    <img src="/assets/images/5.png" style="width:100%">
     <p class="phome">Champak Magazine | Story: Holi Bet</p>
       <img src="/assets/images/tiger.png" style="width:100%">
       <p class="phome">llustrating the spirit of the wild</p>
