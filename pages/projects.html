@@ -1,0 +1,33 @@
+---
+layout: home
+title: Projects
+permalink: projects
+---
+<!-- Post new -->
+<div class="home">
+       <ul class="post-list">
+        {%- for post in site.posts -%}
+
+        <li class="project-list">
+            <div class="project-container">
+                <h1>
+                    <a class="protitle" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </h1>
+                
+                {%- if site.minima.show_excerpts -%}
+                {{ post.excerpt }}
+                {%- endif -%} 
+                <div class="sub-container">
+                    <img src="{{ post.image }}" class="project-img">
+              
+            </div>
+            </div>
+        </li>
+        {%- endfor -%}
+
+    </ul>
+
+
+</div>

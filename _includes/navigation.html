@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<center>
+    <a href="/index">
+        <img class="navimg" src="/assets/images/hardi_shukla_logo.PNG" alt="Hardi shukla">
+      </a>
+<br>
+<nav>
+  <ul>
+      <li><a href="/about-me">About</a></li>
+      <li><a onclick="copyEmail()" class="copy-btn"> Contact
+          <span class="tooltip">Click to copy email</span></a></li>
+      <li><a href="https://wa.me/c/919265731377">Shop</a></li>
+            <!-- <li><a href="/projects">Projects</a></li> -->
+
+  </ul>
+</nav>
+<script>
+  function copyEmail() {
+        navigator.clipboard.writeText('hardisshukla@gmail.com');
+        const btn = document.querySelector('.copy-btn');
+        const tooltip = btn.querySelector('.tooltip');
+        tooltip.textContent = 'Copied!';
+        setTimeout(() => tooltip.textContent = 'Click to copy', 2000);
+      }
+</script>
+</center>
