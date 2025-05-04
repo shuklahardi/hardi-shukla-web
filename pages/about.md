@@ -5,7 +5,7 @@ permalink: "/about/"
 ---
 <div class="aboutrow"> 
   <div class="aboutcolumn">
-    <img src="/assets/images/about.png">
+    <img src="/assets/images/about.webp">
     
   </div>
   <div class="aboutcolumn" style="padding-top: 20px">
