@@ -6,12 +6,12 @@ permalink: "/about/"
 <div class="aboutrow"> 
   <div class="aboutcolumn" style="padding-top: 20px;">
     <img src="/assets/images/hardi-shukla-about.jpg" 
-    style="width: 450px; 
-    margin: 0 auto; 
-    border-radius: 8px;
-    justify-content: center;
-    align-items: center;
-    display: flex;">
+    style="max-width: 450px;
+    width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: block;">
   </div>
   
   <div class="aboutcolumn" style="padding-top: 20px">
