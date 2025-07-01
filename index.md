@@ -16,10 +16,15 @@ layout: home
       <p class="phome">llustrating the spirit of the wild</p>
     <img src="/assets/images/3.webp" style="width:100%">
      <p class="phome">Champak Magazine | Story: Shera Breaks a Bad Habit</p>
+    <img src="/assets/images/g.webp" style="width:100%">
+      <p class="phome">Champak Magazine | Story: Tarun's Tale</p>
       <img src="/assets/images/turtle.webp" style="width:100%">
       <p class="phome">A slow and steady adventure</p>
-      <img src="/assets/images/g.webp" style="width:100%">
-      <p class="phome">Champak Magazine | Story: Tarun's Tale</p>
+<img src="/assets/images/pf2.webp" style="width:100%">
+     <p class="phome">Illustration for Pocket FM</p>
+    <img src="/assets/images/pf3.webp" style="width:100%">
+     <p class="phome">Illustration for Pocket FM</p>
+
   </div>
   <div class="column">
     <img src="/assets/images/2.webp" style="width:100%">
@@ -32,10 +37,12 @@ layout: home
      <p class="phome">Champak Magazine | Story: The Invisible Power</p>
      <img src="/assets/images/neurongirl.webp" style="width:100%">
      <p class="phome">Where imagination meets science</p>
-     <img src="/assets/images/amibaa.webp" style="width:100%">
-     <p class="phome">Exploring the magic of science</p>
      <img src="/assets/images/4-pro.webp" style="width:100%">
       <p class="phome">Champak Magazine | Story: A Fair Chance</p>
+      <img src="/assets/images/amibaa.webp" style="width:100%">
+     <p class="phome">Exploring the magic of science</p>
+     <img src="/assets/images/pf1.webp" style="width:100%">
+     <p class="phome">Illustration for Pocket FM</p>
      </div>  
    </div>
 

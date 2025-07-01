@@ -3,31 +3,36 @@ body {
 }
 
 nav {
-background-color: #ffffff;
-justify-content: center;
-padding-inline-start: 0%;
-margin-block-start: 0%;
-margin-inline-end: 0%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin: 0;
 }
   
 nav ul {
-list-style-type: none;
-display: flex;
-justify-content: center;
-padding-inline-start: 0%;
-margin-block-start: 0%;
-margin-inline-end: 0%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 20px; /* equal spacing between items */
+  flex-wrap: wrap; /* allows wrapping on small screens */
 }
+
   
+nav li {
+  text-align: center;
+}
+
 nav a {
-color: rgb(0, 0, 0);
-text-decoration: none;
-font-size: large;
-padding: 20px;
-justify-content: center;
-padding-inline-start: 0%;
-margin-block-start: 0%;
-margin-inline-end: 0%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: large;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -40,21 +45,77 @@ nav a:active {
    transition: color 0.3s ease;
  }
 
-.navfooter{
+ .navfooter {
+  margin-top: 20px;
+  padding: 20px 6px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.navfooter ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;           /* NO wrapping */
+  gap: 2px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  overflow-x: auto;            /* allow scrolling if needed */
+  white-space: nowrap;
+  scrollbar-width: none;       /* hide scrollbar in Firefox */
+}
+
+.navfooter ul::-webkit-scrollbar {
+  display: none;               /* hide scrollbar in Chrome/Safari */
+}
+
+.navfooter li {
+  display: inline;
+}
+
+.navfooter a {
+  text-decoration: none;
+  color: #000;
+  font-size: x-large;
+  white-space: nowrap;         /* avoid line breaks in link text */
+}
+
+.navfooter a:hover {
+  text-decoration: underline;
+}
+
+/* Small tweaks for very small screens */
+@media screen and (max-width: 400px) {
+  .navfooter a {
+    font-size: 20px;
+  }
+
+  .navfooter ul {
+    gap: 2px;
+    padding: 0 5px;
+  }
+}
+
+/* .navfooter{
   margin-top: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
 background-color: #f9f9f9;
- }
-
-
-.navimg{
-margin-top:30px;  
-margin-bottom: 20px;
+ } */
+ 
+ .navimg {
+  display: block;
+  margin: 30px auto 20px auto;  /* top auto bottom auto = vertical spacing + centering */
   max-width: 25%;
   height: auto;
-  
 }
+
+
 /* Responsive layout of navigation image */
 @media screen and (max-width: 1200px) {
   .navimg {
@@ -72,8 +133,32 @@ margin-bottom: 20px;
 margin-bottom: 20px;
     max-width: 60%;
     height: auto;
+    
   }
-}
+
+  nav a {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  nav ul {
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;  /* Optional: allows horizontal scroll if still doesn't fit */
+  }
+  }
+
+  @media screen and (max-width: 400px) {
+    nav a {
+      font-size: 14px;
+      padding: 2px 4px;
+    }
+  
+    nav ul {
+      gap: 6px;
+    }
+  }
+
 
 .h1{
     font-family: Nunito;
@@ -134,14 +219,77 @@ body {
   }
 }
 
+/* Comic page rows and column */
+.comicrow {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  
+}
 
+/* Create four equal columns that sits next to each other */
+.comiccolumn {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 15px;
+ 
+}
+
+.comiccolumn img {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .comiccolumn {
+    -ms-flex: 33.33%;;
+    flex: 33.33%;;
+    max-width: 33.33%;;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .comiccolumn {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.comiccolumn img {
+  border: 1px solid black;
+}
 
 /* Styles for project page */
 
+
+.post-content p img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 5px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.post-content {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0px;
+  display: block;
+  object-fit: cover;
+  
+}
+
 .project-container {
   display: flex;
-   gap: 8px;
-  padding: 30px;
+   gap: 3px;
+  padding: 15px;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -150,26 +298,33 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  flex-wrap: wrap;
   flex: 1;
 }
 
 .project-img {
-  width: 100%;
-  max-width: auto;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
-}
+  }
 
 /*project image responsive*/
 @media screen and (max-width: 800px) {
   .project-container {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
      }
 
    .sub-container {
     padding: 10px;
   }
+
+  .project-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
+  
 }
 
 .post-list {
@@ -177,18 +332,18 @@ body {
   grid-template-columns: repeat(3, 1fr);
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(10px, 1fr)); */
-  gap: 30px;
-  padding: 20px;
+  gap: 1px;
+  padding: 10px;
   list-style: none;
 }
 
-.project-list {
+/* .project-list {
   background: #f9f9f9;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   list-style: none;
-}
+} */
 
 .protitle{
   font-size: xx-large;
@@ -243,6 +398,7 @@ h1 {
   unicode-bidi: isolate;
 }
 
+
 p {
   display: block;
   margin-block-start: 0em;
@@ -269,8 +425,9 @@ ul {
   border: none;
   cursor: pointer;
   position: relative;
+  text-align: center;
   color: inherit;
-  padding-right: 20px;
+  padding-right: 0px;
   font: nunito;
 }
 .tooltip {
@@ -377,4 +534,49 @@ ul {
 
 #totop:hover {
   background-color: #555;
+}
+
+
+/* -------------------------- */
+.slider {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  white-space: nowrap;
+}
+
+.slide {
+  flex-shrink: 0;
+}
+
+.slide img {
+  display: block;
+  max-width: 30%;
+  height: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 2px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }

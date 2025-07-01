@@ -1,3 +1,13 @@
 {% include navigation.html %}
- <hr>
-{{ content }}
+<hr>
+{% include head.html %}
+
+<div class="project-container">
+  
+    <div class="post-content">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+    </div>
+   
+</div>
+{% include footer.html %}
