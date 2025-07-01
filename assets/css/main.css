@@ -241,6 +241,10 @@ body {
   margin-top: 30px;
   vertical-align: middle;
   width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid black;
+  object-fit: contain;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -259,10 +263,6 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-.comiccolumn img {
-  border: 1px solid black;
 }
 
 /* Styles for project page */
