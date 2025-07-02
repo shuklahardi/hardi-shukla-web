@@ -16,7 +16,7 @@ Boxer’s placement shows strength and sincerity, while Napoleon appears more se
 
 ![My Image](/assets/images/projects/animal%20farm/animal%20farm%202.webp)
 
-TThe color palette came from emotions I felt while reading the book. I wanted the mood to shift between fear, power, and hope without becoming too loud or too dull.
+The color palette came from emotions I felt while reading the book. I wanted the mood to shift between fear, power, and hope without becoming too loud or too dull.
 
 ![My Image](/assets/images/projects/animal%20farm/animal%20farm%203.webp)
 
