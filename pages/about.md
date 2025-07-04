@@ -53,5 +53,20 @@ Great Team Player! I had worked with Hardi on two of my books and she is very co
         <h3 style="text-align: right">- Aparanji Juturu</h3>
   </div>
 
+ <div class="aboutcolumn" style="padding-top: 20px; padding-left: 30px; background:rgb(242, 242, 242)">
+        Hardi brings an idea to reality effortlessly. She has this unique imagination power and she brings it to the table in her own form of art. Ever since I found about her work. I always wanted to order some personalized goodies from her. She won my heart with the little details as she picked the font, shape, size, colors perfectly. So professional yet so exclusive that is how I would describe her work and her ability to do what she is doing is something unquestionable.
+        <br>
+        <h3 style="text-align: right">- Meera Patel</h3>
+  </div>
+  
+  <div class="aboutcolumn" style="padding-top: 20px; padding-left: 30px;">
+    All this time I've been observing her since our university days that an artist with unique capabilities who creates artistic carvings. That caught my eye and till now that has evolved tremendously. The most interesting feature that is present in Hardi is her never giving up strategy and innovation that marks up her superiority. If someday a group of artists would gather I would surely say that she would stand unique amongst them.
+    <br>
+    <h3 style="text-align: right">- Poojan Shah</h3>
+     </div>  
+
+
+
+
 
    </div>

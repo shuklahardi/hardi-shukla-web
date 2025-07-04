@@ -532,7 +532,7 @@ ul {
   border-radius: 4px;
 }
 
-#totop:hover {
+#totop.hover {
   background-color: #555;
 }
 

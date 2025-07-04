@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-<button onclick="topFunction()" id="totop" title="Go to top">↑</button>
 
 <!-- Photo Grid -->
 <div class="comicrow"> 
@@ -46,55 +45,4 @@ layout: home
   </div>  
 </div>
    
-   <script>
-//Get the slider button
-const slidesContainer = document.getElementById('slides');
-    const slides = document.querySelectorAll('.slide');
-    const slider = document.getElementById('slider');
-    let currentIndex = 0;
-
-    function updateSlide() {
-      const currentSlide = slides[currentIndex];
-      const img = currentSlide.querySelector('img');
-
-      // Scroll to the correct image
-      slidesContainer.style.transform = `translateX(-${currentSlide.offsetLeft}px)`;
-
-      // Resize the slider box to the image
-      slider.style.width = img.offsetWidth + 'px';
-      slider.style.height = img.offsetHeight + 'px';
-    }
-
-    document.querySelector('.next').addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % slides.length;
-      updateSlide();
-    });
-
-    document.querySelector('.prev').addEventListener('click', () => {
-      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-      updateSlide();
-    });
-
-    window.addEventListener('load', updateSlide);
-    window.addEventListener('resize', updateSlide);
-
-// Get the button
-let totop = document.getElementById("totop");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    totop.style.display = "block";
-  } else {
-    totop.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+  
