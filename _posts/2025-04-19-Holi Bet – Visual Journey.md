@@ -1,8 +1,10 @@
 ---
 layout: post
 date: 2025-04-21
+title: "The Holi Bet Story"
 permalink: "/illustratingstory/"
 image: "/assets/images/projects/illustrating story/0.webp"
+excerpt: A vibrant Champak fable where a crocodile dares a meerkat to splash color on a reluctant elephant. The forest friends learn that respecting boundaries is the true way to win, proving that kindness is the best part of any celebration.
 ---
 Illustrating a story is more than just drawing—it’s about shaping characters, emotions, and moods that enhance storytelling. 
 

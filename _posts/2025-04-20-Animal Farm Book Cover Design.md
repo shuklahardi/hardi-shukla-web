@@ -1,6 +1,7 @@
 ---
 title: Animal Farm Book Cover Design
 layout: post
+title: "Animal Farm Book Cover Design"
 date: 2025-06-23
 permalink: "/animalfarmbookcoverdesign/"
 image: "/assets/images/projects/animal farm/animal farm 1.webp"

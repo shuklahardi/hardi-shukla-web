@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2025-04-20
+title: "Indian Bazaar Tote Bag Design"
 permalink: "/indianbazartotebag/"
 image: "/assets/images/projects/tote bag/tote bag 0.png"
 ---

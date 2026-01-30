@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2025-04-19
+title: "Gujarati Sticker Pack"
 permalink: "/ghargharnivaato/"
 image: "/assets/images/projects/ghar ghar ni vaato/0.webp"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2025-04-20
+title: "The Ocean Collection - Coaster Design"
 permalink: "/theoceancollection/"
 image: "/assets/images/projects/coaster collection/coaster 10.webp"
 ---
